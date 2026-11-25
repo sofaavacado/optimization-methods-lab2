@@ -1,0 +1,164 @@
+{
+  "valid": true,
+  "cost": 2087.0,
+  "arcs": [
+    {
+      "arc": "S1-H1",
+      "flow": 40.0,
+      "capacity": 40,
+      "valid": true
+    },
+    {
+      "arc": "S1-H2",
+      "flow": 0.0,
+      "capacity": 0,
+      "valid": true
+    },
+    {
+      "arc": "S2-H1",
+      "flow": 33.0,
+      "capacity": 36,
+      "valid": true
+    },
+    {
+      "arc": "S2-H2",
+      "flow": 42.0,
+      "capacity": 42,
+      "valid": true
+    },
+    {
+      "arc": "S3-H1",
+      "flow": 39.0,
+      "capacity": 46,
+      "valid": true
+    },
+    {
+      "arc": "S3-H2",
+      "flow": 0.0,
+      "capacity": 56,
+      "valid": true
+    },
+    {
+      "arc": "H1-D1",
+      "flow": 19.0,
+      "capacity": 48,
+      "valid": true
+    },
+    {
+      "arc": "H1-D2",
+      "flow": 30.0,
+      "capacity": 40,
+      "valid": true
+    },
+    {
+      "arc": "H1-D3",
+      "flow": 35.0,
+      "capacity": 36,
+      "valid": true
+    },
+    {
+      "arc": "H1-D4",
+      "flow": 28.0,
+      "capacity": 50,
+      "valid": true
+    },
+    {
+      "arc": "H1-D5",
+      "flow": 0.0,
+      "capacity": 49,
+      "valid": true
+    },
+    {
+      "arc": "H2-D1",
+      "flow": 15.0,
+      "capacity": 56,
+      "valid": true
+    },
+    {
+      "arc": "H2-D2",
+      "flow": 0.0,
+      "capacity": 51,
+      "valid": true
+    },
+    {
+      "arc": "H2-D3",
+      "flow": 0.0,
+      "capacity": 60,
+      "valid": true
+    },
+    {
+      "arc": "H2-D4",
+      "flow": 0.0,
+      "capacity": 48,
+      "valid": true
+    },
+    {
+      "arc": "H2-D5",
+      "flow": 27.0,
+      "capacity": 56,
+      "valid": true
+    }
+  ],
+  "balances": [
+    {
+      "node": "S1",
+      "net_out": 40.0,
+      "target": 80,
+      "valid": true
+    },
+    {
+      "node": "S2",
+      "net_out": 75.0,
+      "target": 75,
+      "valid": true
+    },
+    {
+      "node": "S3",
+      "net_out": 39.0,
+      "target": 65,
+      "valid": true
+    },
+    {
+      "node": "H1",
+      "net_out": 0.0,
+      "target": 0,
+      "valid": true
+    },
+    {
+      "node": "H2",
+      "net_out": 0.0,
+      "target": 0,
+      "valid": true
+    },
+    {
+      "node": "D1",
+      "net_out": -34.0,
+      "target": -34,
+      "valid": true
+    },
+    {
+      "node": "D2",
+      "net_out": -30.0,
+      "target": -30,
+      "valid": true
+    },
+    {
+      "node": "D3",
+      "net_out": -35.0,
+      "target": -35,
+      "valid": true
+    },
+    {
+      "node": "D4",
+      "net_out": -28.0,
+      "target": -28,
+      "valid": true
+    },
+    {
+      "node": "D5",
+      "net_out": -27.0,
+      "target": -27,
+      "valid": true
+    }
+  ]
+}

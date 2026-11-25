@@ -1,0 +1,129 @@
+{
+  "seed": 10015,
+  "sources": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "hubs": [
+    "H1",
+    "H2"
+  ],
+  "customers": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5"
+  ],
+  "supply": {
+    "S1": 80,
+    "S2": 75,
+    "S3": 65
+  },
+  "demand": {
+    "D1": 34,
+    "D2": 30,
+    "D3": 35,
+    "D4": 28,
+    "D5": 27
+  },
+  "arcs": [
+    {
+      "u": "S1",
+      "v": "H1",
+      "capacity": 40,
+      "cost": 6
+    },
+    {
+      "u": "S1",
+      "v": "H2",
+      "capacity": 43,
+      "cost": 2
+    },
+    {
+      "u": "S2",
+      "v": "H1",
+      "capacity": 36,
+      "cost": 7
+    },
+    {
+      "u": "S2",
+      "v": "H2",
+      "capacity": 42,
+      "cost": 5
+    },
+    {
+      "u": "S3",
+      "v": "H1",
+      "capacity": 46,
+      "cost": 7
+    },
+    {
+      "u": "S3",
+      "v": "H2",
+      "capacity": 56,
+      "cost": 10
+    },
+    {
+      "u": "H1",
+      "v": "D1",
+      "capacity": 48,
+      "cost": 10
+    },
+    {
+      "u": "H1",
+      "v": "D2",
+      "capacity": 40,
+      "cost": 4
+    },
+    {
+      "u": "H1",
+      "v": "D3",
+      "capacity": 36,
+      "cost": 11
+    },
+    {
+      "u": "H1",
+      "v": "D4",
+      "capacity": 50,
+      "cost": 9
+    },
+    {
+      "u": "H1",
+      "v": "D5",
+      "capacity": 49,
+      "cost": 7
+    },
+    {
+      "u": "H2",
+      "v": "D1",
+      "capacity": 56,
+      "cost": 7
+    },
+    {
+      "u": "H2",
+      "v": "D2",
+      "capacity": 51,
+      "cost": 12
+    },
+    {
+      "u": "H2",
+      "v": "D3",
+      "capacity": 60,
+      "cost": 12
+    },
+    {
+      "u": "H2",
+      "v": "D4",
+      "capacity": 48,
+      "cost": 9
+    },
+    {
+      "u": "H2",
+      "v": "D5",
+      "capacity": 56,
+      "cost": 3
+    }
+  ]
+}

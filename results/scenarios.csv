@@ -1,0 +1,5 @@
+﻿scenario,status,cost,delta,verified,iterations,demand
+base,optimal,1818.0,0.0,True,4,154
+capacity_minus20,optimal,1857.9999999999998,39.99999999999977,True,3,154
+failure,optimal,2087.0,269.0,True,6,154
+demand_plus20,optimal,2254.8,436.8000000000002,True,5,184.8

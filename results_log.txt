@@ -1,0 +1,99 @@
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 1e+00]
+  Cost   [2e+00, 1e+01]
+  Bound  [4e+01, 6e+01]
+  RHS    [3e+01, 8e+01]
+Presolving model
+5 rows, 11 cols, 22 nonzeros  0s
+5 rows, 11 cols, 22 nonzeros  0s
+Presolve : Reductions: rows 5(-5); columns 11(-5); elements 22(-10)
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+          4     1.8180000000e+03 Pr: 0(0) 0s
+Solving the original LP from the solution after postsolve
+Model status        : Optimal
+Simplex   iterations: 4
+Objective value     :  1.8180000000e+03
+Relative P-D gap    :  0.0000000000e+00
+HiGHS run time      :          0.00
+Most loaded: {'u': 'S1', 'v': 'H2', 'capacity': 43, 'cost': 2} utilization 1.0
+
+SCENARIO base
+GREEDY {'scenario': 'base', 'lp_status': 'optimal', 'lp_cost': 1818.0, 'greedy_valid': True, 'greedy_cost': 1818.0, 'demand': 154, 'delivered': 154.0, 'unmet_demand': 0.0, 'gap_pct': 0.0}
+
+SCENARIO capacity_minus20
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 1e+00]
+  Cost   [2e+00, 1e+01]
+  Bound  [3e+01, 6e+01]
+  RHS    [3e+01, 8e+01]
+Presolving model
+4 rows, 11 cols, 20 nonzeros  0s
+4 rows, 11 cols, 20 nonzeros  0s
+Presolve : Reductions: rows 4(-6); columns 11(-5); elements 20(-12)
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+          3     1.8580000000e+03 Pr: 0(0) 0s
+Solving the original LP from the solution after postsolve
+Model status        : Optimal
+Simplex   iterations: 3
+Objective value     :  1.8580000000e+03
+Relative P-D gap    :  1.2237549809e-16
+HiGHS run time      :          0.00
+GREEDY {'scenario': 'capacity_minus20', 'lp_status': 'optimal', 'lp_cost': 1857.9999999999998, 'greedy_valid': True, 'greedy_cost': 1858.0, 'demand': 154, 'delivered': 154.0, 'unmet_demand': 0.0, 'gap_pct': 1.223754980857008e-14}
+
+SCENARIO failure
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 1e+00]
+  Cost   [2e+00, 1e+01]
+  Bound  [4e+01, 6e+01]
+  RHS    [3e+01, 8e+01]
+Presolving model
+4 rows, 10 cols, 19 nonzeros  0s
+4 rows, 10 cols, 19 nonzeros  0s
+Presolve : Reductions: rows 4(-6); columns 10(-6); elements 19(-13)
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+          6     2.0870000000e+03 Pr: 0(0) 0s
+Solving the original LP from the solution after postsolve
+Model status        : Optimal
+Simplex   iterations: 6
+Objective value     :  2.0870000000e+03
+Relative P-D gap    :  0.0000000000e+00
+HiGHS run time      :          0.00
+GREEDY {'scenario': 'failure', 'lp_status': 'optimal', 'lp_cost': 2087.0, 'greedy_valid': True, 'greedy_cost': 2087.0, 'demand': 154, 'delivered': 154.0, 'unmet_demand': 0.0, 'gap_pct': 0.0}
+
+SCENARIO demand_plus20
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 1e+00]
+  Cost   [2e+00, 1e+01]
+  Bound  [4e+01, 6e+01]
+  RHS    [3e+01, 8e+01]
+Presolving model
+5 rows, 11 cols, 22 nonzeros  0s
+5 rows, 11 cols, 22 nonzeros  0s
+Presolve : Reductions: rows 5(-5); columns 11(-5); elements 22(-10)
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+          5     2.2548000000e+03 Pr: 0(0) 0s
+Solving the original LP from the solution after postsolve
+Model status        : Optimal
+Simplex   iterations: 5
+Objective value     :  2.2548000000e+03
+Relative P-D gap    :  2.0167968374e-16
+HiGHS run time      :          0.00
+GREEDY {'scenario': 'demand_plus20', 'lp_status': 'optimal', 'lp_cost': 2254.8, 'greedy_valid': True, 'greedy_cost': 2272.7999999999993, 'demand': 184.8, 'delivered': 184.8, 'unmet_demand': 0.0, 'gap_pct': 0.798296966471487}
+[{'scenario': 'base', 'status': 'optimal', 'cost': 1818.0, 'delta': 0.0, 'verified': True, 'iterations': 4, 'demand': 154}, {'scenario': 'capacity_minus20', 'status': 'optimal', 'cost': 1857.9999999999998, 'delta': 39.99999999999977, 'verified': True, 'iterations': 3, 'demand': 154}, {'scenario': 'failure', 'status': 'optimal', 'cost': 2087.0, 'delta': 269.0, 'verified': True, 'iterations': 6, 'demand': 154}, {'scenario': 'demand_plus20', 'status': 'optimal', 'cost': 2254.8, 'delta': 436.8000000000002, 'verified': True, 'iterations': 5, 'demand': 184.8}]
+Python 3.13.5 SciPy 1.17.0

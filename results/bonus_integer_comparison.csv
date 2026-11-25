@@ -1,0 +1,3 @@
+﻿model,status,cost,integrality_gap_pct
+LP,optimal,1818.0,0
+MILP,optimal,1818.0,0.0

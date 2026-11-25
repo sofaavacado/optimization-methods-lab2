@@ -1,0 +1,17 @@
+﻿arc,flow,capacity,valid
+S1-H1,37.0,40,True
+S1-H2,43.0,43,True
+S2-H1,32.0,36,True
+S2-H2,42.0,42,True
+S3-H1,0.0,46,True
+S3-H2,0.0,56,True
+H1-D1,0.0,48,True
+H1-D2,30.0,40,True
+H1-D3,35.0,36,True
+H1-D4,4.0,50,True
+H1-D5,0.0,49,True
+H2-D1,34.0,56,True
+H2-D2,0.0,51,True
+H2-D3,0.0,60,True
+H2-D4,24.0,48,True
+H2-D5,27.0,56,True

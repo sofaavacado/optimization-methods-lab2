@@ -1,0 +1,165 @@
+{
+  "valid": true,
+  "cost": 2254.7999999999993,
+  "arcs": [
+    {
+      "arc": "S1-H1",
+      "flow": 37.0,
+      "capacity": 40,
+      "valid": true
+    },
+    {
+      "arc": "S1-H2",
+      "flow": 43.0,
+      "capacity": 43,
+      "valid": true
+    },
+    {
+      "arc": "S2-H1",
+      "flow": 33.0,
+      "capacity": 36,
+      "valid": true
+    },
+    {
+      "arc": "S2-H2",
+      "flow": 42.0,
+      "capacity": 42,
+      "valid": true
+    },
+    {
+      "arc": "S3-H1",
+      "flow": 29.799999999999997,
+      "capacity": 46,
+      "valid": true
+    },
+    {
+      "arc": "S3-H2",
+      "flow": 0.0,
+      "capacity": 56,
+      "valid": true
+    },
+    {
+      "arc": "H1-D1",
+      "flow": 0.0,
+      "capacity": 48,
+      "valid": true
+    },
+    {
+      "arc": "H1-D2",
+      "flow": 36.0,
+      "capacity": 40,
+      "valid": true
+    },
+    {
+      "arc": "H1-D3",
+      "flow": 36.0,
+      "capacity": 36,
+      "valid": true
+    },
+    {
+      "arc": "H1-D4",
+      "flow": 27.799999999999997,
+      "capacity": 50,
+      "valid": true
+    },
+    {
+      "arc": "H1-D5",
+      "flow": 0.0,
+      "capacity": 49,
+      "valid": true
+    },
+    {
+      "arc": "H2-D1",
+      "flow": 40.8,
+      "capacity": 56,
+      "valid": true
+    },
+    {
+      "arc": "H2-D2",
+      "flow": 0.0,
+      "capacity": 51,
+      "valid": true
+    },
+    {
+      "arc": "H2-D3",
+      "flow": 6.0,
+      "capacity": 60,
+      "valid": true
+    },
+    {
+      "arc": "H2-D4",
+      "flow": 5.800000000000004,
+      "capacity": 48,
+      "valid": true
+    },
+    {
+      "arc": "H2-D5",
+      "flow": 32.4,
+      "capacity": 56,
+      "valid": true
+    }
+  ],
+  "balances": [
+    {
+      "node": "S1",
+      "net_out": 80.0,
+      "target": 80,
+      "valid": true
+    },
+    {
+      "node": "S2",
+      "net_out": 75.0,
+      "target": 75,
+      "valid": true
+    },
+    {
+      "node": "S3",
+      "net_out": 29.799999999999997,
+      "target": 65,
+      "valid": true
+    },
+    {
+      "node": "H1",
+      "net_out": 0.0,
+      "target": 0,
+      "valid": true
+    },
+    {
+      "node": "H2",
+      "net_out": 0.0,
+      "target": 0,
+      "valid": true
+    },
+    {
+      "node": "D1",
+      "net_out": -40.8,
+      "target": -40.8,
+      "valid": true
+    },
+    {
+      "node": "D2",
+      "net_out": -36.0,
+      "target": -36.0,
+      "valid": true
+    },
+    {
+      "node": "D3",
+      "net_out": -42.0,
+      "target": -42.0,
+      "valid": true
+    },
+    {
+      "node": "D4",
+      "net_out": -33.6,
+      "target": -33.6,
+      "valid": true
+    },
+    {
+      "node": "D5",
+      "net_out": -32.4,
+      "target": -32.4,
+      "valid": true
+    }
+  ],
+  "objective_error": 9.094947017729282e-13
+}

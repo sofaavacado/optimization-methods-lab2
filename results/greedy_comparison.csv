@@ -1,0 +1,5 @@
+﻿scenario,lp_status,lp_cost,greedy_valid,greedy_cost,demand,delivered,unmet_demand,gap_pct
+base,optimal,1818.0,True,1818.0,154,154.0,0.0,0.0
+capacity_minus20,optimal,1857.9999999999998,True,1858.0,154,154.0,0.0,1.223754980857008e-14
+failure,optimal,2087.0,True,2087.0,154,154.0,0.0,0.0
+demand_plus20,optimal,2254.8,True,2272.7999999999993,184.8,184.8,0.0,0.798296966471487
